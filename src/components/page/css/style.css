@@ -1,0 +1,262 @@
+@font-face {
+  font-family: JosefinSans-Regular;
+  src: url(assets/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: JosefinSans-Light;
+  src: url(assets/JosefinSans-Light.ttf);
+}
+
+@font-face {
+  font-family: JosefinSans-SemiBold;
+  src: url(assets/JosefinSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: JosefinSans-Bold;
+  src: url(assets/JosefinSans-Bold.ttf);
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+	background-color: #F5F5F5;
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+body {
+  margin: 0;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.test {
+  color: white;
+}
+.page-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("assets/background.png");
+  background-size: cover;
+}
+
+.profile-block {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.image_profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.username_profile {
+  display: block;
+  margin-left: 20px;
+  font-family: JosefinSans-Regular;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.total-block {
+  position: absolute;
+  left: 3%;
+  top: 5%;
+  font-family: JosefinSans-Bold;
+  font-weight: bold;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.list {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  width: 40%;
+  height: 55%;
+  overflow: auto;
+  padding-left: 10px;
+  background-color: white;
+  opacity: 0.7;
+}
+
+.list > li {
+  list-style-type: none;
+  font-family: JosefinSans-Regular;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.list-select {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  width: 40.5%;
+  height: 6%;
+  background: transparent;
+  border: 2px solid white;
+  font-family: JosefinSans-Regular;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+  text-align-last: center;
+}
+
+.list-select > option {
+  font-size: 20px;
+  background-image: url('../images/garbage.png');
+  color: black;
+}
+
+.list-buttons {
+  position: absolute;
+  top: 88%;
+  left: 5%;
+  width: 50.5%;
+}
+
+.buttons {
+  font-family: JosefinSans-Regular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  background: transparent;
+}
+
+.buttons:hover {
+  box-shadow: 0 0 2px 3px white;
+}
+
+.add_button,
+.delete_button {
+  width: 40.2%;
+}
+
+.date-block {
+  position: absolute;
+  right: 5%;
+  top: 16%;
+  font-family: JosefinSans-Bold;
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+}
+
+.period-from {
+  position: absolute;
+  top: 33%;
+  right: 17%;
+  width: 30%;
+  color: white;
+  font-family: JosefinSans-Light;
+  font-size: 24px;
+}
+
+.period_date {
+  display: inline-block;
+  margin-left: 20px;
+  width: 70%;
+  font-size: 36px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.period-to {
+  position: absolute;
+  top: 42%;
+  right: 11%;
+  width: 30%;
+  color: white;
+  font-family: JosefinSans-Light;
+  font-size: 24px;
+}
+
+.summ {
+  position: absolute;
+  top: 55%;
+  right: 20%;
+  font-family: JosefinSans-Regular;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+}
+
+.expenses_block {
+  margin-top: 20px;
+}
+
+.option-buttons {
+  position: absolute;
+  top: 75%;
+  right: 15%;
+  width: 30%;
+}
+
+.pie-chart,
+.calculate {
+  width: 49%;
+  height: 50px;
+}
+.pdf {
+  width: 98%;
+  height: 50px;
+}

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: JosefinSans-Regular;
+    src: url(assets/JosefinSans-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: JosefinSans-Light;
+    src: url(assets/JosefinSans-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: JosefinSans-SemiBold;
+    src: url(assets/JosefinSans-SemiBold.ttf);
+  }
+  
+  @font-face {
+    font-family: JosefinSans-Bold;
+    src: url(assets/JosefinSans-Bold.ttf);
+  }
+.dropbtn {
+    width: 45.3%;
+    background-color: #3498DB;
+    background: transparent;
+    border: 2px solid white;
+    font-family: JosefinSans-Regular;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+    text-align-last: center;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(65, 69, 71);
+  }
+  
+  .dropdown {
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 26%;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    width: 45.3%;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-element {
+    padding: 12px 16px;
+    font-size: 20px;
+    color: black;
+    font-family: JosefinSans-Regular;
+    font-weight: bold;
+  }
+  .dropdown-element img {
+      margin-top: 5px;
+      text-align: right;
+      float: right;
+  }
+  .dropdown-element:hover {
+      background-color: grey;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }

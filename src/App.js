@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import React, { Fragment } from 'react';
+// import logo from './logo.svg';
+// import './App.css';
+// import AuthorizationComponent from './components/authorizatioin/authorization.component';
+// import RegistrationComponent from './components/registration/registration.component';
+// import 'react-notifications-component/dist/theme.css';
+// import ReactNotification from 'react-notifications-component';
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// function App() {
+//   return (
+    
+//   );
+// }
 
-export default App;
+// export default App;

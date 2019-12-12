@@ -1,0 +1,134 @@
+@font-face {
+  font-family: JosefinSans-Regular;
+  src: url(assets/JosefinSans-Regular.ttf);
+}
+#myModal {
+  z-index: 2;
+}
+.exit {
+  margin: 3%;
+  float: right;
+}
+.piechart-text {
+  color: white;
+  font-size: 40px;
+  font-family: JosefinSans-Regular;
+  font-weight: bold;
+  margin-top: 20%;
+  text-align: center;
+}
+label.add-item,
+span.add-item {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  font-family: JosefinSans-Regular;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.name-form-list {
+  top: 40%;
+}
+#list-form {
+  margin-left: 9.5%;
+}
+.list-form {
+  top: 30%;
+  left: 13%;
+}
+
+#amount-form {
+  margin-left: 3.5%;
+}
+.amount-form {
+  top: 50%;
+  left: 14%;
+}
+.date_label {
+  top: 40%;
+  left: 8%;
+}
+
+.details-form {
+  top: 60%;
+  left: 5%;
+}
+
+#details-form {
+  height: 100px;
+}
+
+.date-form {
+  position: absolute;
+  top: 40%;
+  left: 23%;
+  width: 62%;
+  height: 23px;
+  font-family: JosefinSans-Regular;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid rgba(196, 196, 196, 0.4);
+}
+
+input.form-input,
+textarea.form-input {
+  display: inline-block;
+  margin-left: 6%;
+  width: 70%;
+  height: 23px;
+  border: none;
+  color: white;
+  background-color: rgba(196, 196, 196, 0.4);
+  resize: none;
+}
+
+input.form-input:hover,
+textarea.form-input:hover,
+#add-list:hover,
+#cancel-list:hover {
+  border: 1px solid white;
+}
+
+.form-list {
+  background-color: rgba(85, 74, 74, 0.5);
+  position: relative;
+  top: 10%;
+  left: 25%;
+  width: 40%;
+  height: 30%;
+  border: 2px solid white;
+}
+
+.new-item_header {
+  position: absolute;
+  left: 16%;
+  top: 0;
+  font-family: JosefinSans-Regular;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#add-list,
+#cancel-list {
+  position: absolute;
+  top: 70%;
+  left: 8%;
+  width: 30%;
+  height: 40px;
+  font-family: JosefinSans-Regular;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border: none;
+  background-color: rgba(196, 196, 196, 0.4);
+}
+
+#cancel-list {
+  left: 60%;
+}
